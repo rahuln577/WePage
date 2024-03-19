@@ -20,7 +20,7 @@ Whether you're a small business looking to establish a strong online presence or
 
 <!-- Email: info@WePagesolutions.com  
 Phone: 123-456-7890  
-Website: [www.WePagesolutions.com](https://www.WePagesolutions.com)  
+Website: [https://www.WePagesolutions.com](https://www.WePagesolutions.com)  
 
 [Follow us on Instagram](https://www.instagram.com/WePagesolutions/)  
 [Like us on Facebook](https://www.facebook.com/WePagesolutions/)  
