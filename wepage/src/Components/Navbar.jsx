@@ -8,11 +8,12 @@ export default function Navbar() {
         <a href="#" className="text-[1rem] font-semibold">Location</a>
 
     </div>
-    <div className="block lg:hidden my-[1rem] ml-[1rem]">
+    <div className="block lg:hidden my-[1rem] ml-[1rem] cursor-pointer">
         <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
         <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
         <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
     </div>
     <img src={logo} className="w-[10rem] right-[32%] absolute top-[1rem] md:right-[43%] ss:right-[37%]"></img>
+    <div className="h-screen bg-gray-100 w-[35rem]"></div>
     </nav>
 }
