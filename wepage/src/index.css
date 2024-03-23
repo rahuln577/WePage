@@ -15,3 +15,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.anim{
+  animation: ani 1s forwards;
+}
+
+.reanim{
+  animation: reani 1s forwards;
+}
+
+@keyframes ani{
+  to{
+    transform:translateX(-3rem);
+  }
+}
+
+@keyframes reani{
+  from{
+    transform:translateX(-3rem);
+  }
+  to{
+    transform:translateX(-40rem);
+  }
+}
