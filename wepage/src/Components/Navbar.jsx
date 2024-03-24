@@ -45,11 +45,11 @@ export default function Navbar() {
             <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
             <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
         </div>
-        <img src={logo} className="w-[10rem] right-[27%] us:right-[32%] absolute top-[1rem] md:right-[43%] ss:right-[37%]"></img>
-        <div  ref={ham} className="h-screen shadow-xl bg-white w-[35rem] translate-x-[-70rem]">
+        <img src={logo} className="w-[10rem] h-[100%] absolute lg:left-[45%] md:left-[40%] left-[35%]"></img>
+        <div  ref={ham} className="h-screen shadow-xl bg-white w-[25rem] md:w-[30rem] translate-x-[-70rem]">
             <div onClick={hammenu} className="cursor-pointer flex flex-row">
                 <AiOutlineClose size="25px" style={{marginTop:"1.5rem",marginLeft:"1.5rem"}}/>
-                <img src={logo} className="w-[10rem] ml-[10%] us:ml-[20%] ss:ml-[30%] md:ml-[9rem] mt-[1rem]"></img>
+                <img src={logo} className="w-[10rem] ml-[15%] md:ml-[25%] mt-[1rem]"></img>
             </div>
             <div className="flex flex-col justify-between h-[35%]  mt-[4rem]">
             <div className="flex flex-row justify-between">
