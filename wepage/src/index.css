@@ -38,3 +38,7 @@ code {
     transform:translateX(-40rem);
   }
 }
+
+.showca::-webkit-scrollbar{
+  display:none;
+}

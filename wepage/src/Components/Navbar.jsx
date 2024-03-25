@@ -32,8 +32,8 @@ export default function Navbar() {
             ham.current.classList.add("anim");
         }
     }
-    return <nav className="bg-white shadow-lg w-[96%]  h-[4.5rem] flex-row flex fixed top-[2rem] mx-[2%]" ref={myref}>
-        <div className=" ml-[1rem] flex-row hidden lg:flex h-[100%] w-[24rem] justify-between items-center">
+    return <nav className="bg-white shadow-lg w-[96%]  h-[4.5rem] flex-row flex fixed top-[2rem] mx-[2%] z-[99]" ref={myref}>
+        <div className=" ml-[1rem] flex-row hidden lg:flex h-[100%] w-[24rem] justify-between items-center z-[2]">
             <a href="#" className="text-[1rem] font-semibold ">Home</a>
             <a href="#" className="text-[1rem] font-semibold">About Us</a>
             <a href="#" className="text-[1rem] font-semibold">Best Sellers</a>
@@ -45,8 +45,10 @@ export default function Navbar() {
             <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
             <div className="w-[30px] h-[2px] rounded-[10%] bg-black my-[0.5rem]"></div>
         </div>
-        <img src={logo} className="w-[10rem] h-[100%] absolute lg:left-[45%] md:left-[40%] left-[35%]"></img>
-        <div  ref={ham} className="h-screen shadow-xl bg-white w-[25rem] md:w-[30rem] translate-x-[-70rem]">
+
+        <img src={logo} className="w-[10rem] h-[100%] lg:left-[45%] md:left-[40%] left-[35%] absolute"></img>
+
+        <div  ref={ham} className="h-screen shadow-xl bg-white w-[25rem] md:w-[30rem] translate-x-[-70rem] relative z-[99]">
             <div onClick={hammenu} className="cursor-pointer flex flex-row">
                 <AiOutlineClose size="25px" style={{marginTop:"1.5rem",marginLeft:"1.5rem"}}/>
                 <img src={logo} className="w-[10rem] ml-[15%] md:ml-[25%] mt-[1rem]"></img>
