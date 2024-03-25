@@ -42,7 +42,7 @@ export default function Showcase() {
         </div>
 
 
-        <div className="showca overflow-x-scroll flex flex-row w-[93%] m-[2%] mx-[3%] lg:hidden">
+        <div className="no-scrollbar overflow-x-scroll flex flex-row w-[93%] m-[2%] mx-[3%] lg:hidden">
             <div className=" min-w-[16.7rem]  m-[0.8rem] relative">
                 <img src={require("./../assets/model1.jpg")} ></img>
                 <div className="absolute bottom-[5%] left-[6%] z-[1] flex flex-col">
