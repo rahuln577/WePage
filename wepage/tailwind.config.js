@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    screens:{
+    /*screens:{
       'vs':'375px',
       'us':'425px',
       'ss':'559px',
@@ -13,7 +13,7 @@ module.exports = {
       'sm':'640px',
       'md':'768px',
       'xl':'1280px'
-    }
+    }*/
   },
   plugins: [],
 }
