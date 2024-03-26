@@ -6,14 +6,19 @@ import model3 from '../../assets/model3.jpg'
 
 function BestSellers() {
   return (
-      <div className='w-[100%] h-full overflow-x-scroll overflow-hidden relative gap-4 flex flex-row items-center justify-center mt-10 ml-4 no-scrollbar'>
-          <BestSellersCard image1={model1} image2={model3} />
-          <BestSellersCard image1={model1} image2={model3} />
-          <BestSellersCard image1={model1} image2={model3} />
-          <BestSellersCard image1={model1} image2={model3} />
-          <BestSellersCard image1={model1} image2={model3} />
-
+    <div className="no-scrollbar overflow-x-scroll flex flex-row w-full">
+  
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
+      <BestSellersCard image1={model1} image2={model3} />
     </div>
+
   )
 }
 
