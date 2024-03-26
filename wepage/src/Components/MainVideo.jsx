@@ -1,10 +1,11 @@
-//import video from "./../assets/Main.mp4"
+import video from "./../assets/Main.mp4"
+
 export default function MainVideo() {
     return <div>
         <div className=" w-[100%]  h-screen overflow-hidden ">
             <div className="h-screen w-[100%] overflow-hidden">
                 <div className=" w-[100%]  h-screen overflow-hidden relative">
-                    <video muted="true" src={require("./../assets/Main.mp4")} type="video/mp4" autoplay="true" className=" relative z-[-99] object-fill min-h-screen " loop="true"></video>
+                    <video muted="true" src={video} type="video/mp4" autoplay="true" className=" relative z-[-99] object-fill min-h-screen " loop="true"></video>
                 </div>
             </div>
 
