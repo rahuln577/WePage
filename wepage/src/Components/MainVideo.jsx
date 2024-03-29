@@ -4,7 +4,7 @@ export default function MainVideo() {
     return <div>
         <div className=" w-[100%]  h-screen overflow-hidden ">
             <div className="h-screen w-[100%] overflow-hidden">
-                <div className=" w-[100%]  h-screen overflow-hidden relative">
+                <div className=" w-[1500px] right-[70%] sm:right-[40%] md:left-[0%] h-screen overflow-hidden relative">
                     <video muted="true" src={video} type="video/mp4" autoplay="true" className=" relative z-[-99] object-fill min-h-screen " loop="true"></video>
                 </div>
             </div>
