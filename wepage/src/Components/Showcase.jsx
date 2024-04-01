@@ -7,7 +7,7 @@ export default function Showcase() {
                     <div className="w-[32%] h-[40rem] m-[1%]">
                     <img src={require("./../assets/model1.jpg")} className=" w-[100%] h-[40rem]">
                     </img>
-                    <div className="relative top-[-22%] left-[5%] z-[99] flex flex-col">
+                    <div className="relative top-[-22%] left-[6%] z-[99] flex flex-col">
                         <h1 className="text-white text-[2rem] font-bold mb-[0.5rem]">Casual Shirts</h1>
                         <a href="#" className="text-[1rem]"><div className="bg-white w-[9rem] h-[2.5rem] rounded-[0.2rem] flex flex-row justify-center items-center"><p className="text-[0.9rem]">KNOW MORE</p></div></a>
                     </div>
@@ -24,20 +24,21 @@ export default function Showcase() {
                         <div className=" m-[2%] w-[100%] h-[14.3rem]">
                             <img src={require("./../assets/model3.jpg")} className="w-[85%]  h-[19rem]"></img>
                         </div>
-                        <div className="relative top-[-10%] left-[9%]">
+                        <div className="relative top-[-8%] left-[7%]">
                             <h1 className="text-white text-[2rem] font-bold mb-[0.5rem]">Formals</h1>
                             <a href="#" className="text-[1rem]"><div className="bg-white w-[9rem] h-[2.5rem] rounded-[0.2rem] flex flex-row justify-center items-center"><p className="text-[0.9rem]">KNOW MORE</p></div></a>
 
                         </div>
 
                         <div className="relative m-[2%] w-[100%] h-[44.8rem] top-[-2%]">
-                            <img src={require("./../assets/model4.jpg")} className="max-w-[86%]"></img>
-                        </div>
-                        <div className="relative bottom-[60%] right-[-8%]">
+                            <img src={require("./../assets/model4.jpg")} className="w-[86%] h-[19rem]"></img>
+                            <div className="absolute bottom-[11%] right-[57%]">
                             <h1 className="text-white text-[2rem] font-bold mb-[0.5rem]">Shirts</h1>
                             <a href="#" className="text-[1rem]"><div className="bg-white w-[9rem] h-[2.5rem] rounded-[0.2rem] flex flex-row justify-center items-center"><p className="text-[0.9rem]">KNOW MORE</p></div></a>
 
                         </div>
+                        </div>
+                        
 
                     </div>
                 </div>
