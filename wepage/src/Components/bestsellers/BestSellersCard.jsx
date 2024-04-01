@@ -9,7 +9,7 @@ function BestSellersCard(props) {
         <div className='min-w-[22rem] m-1 relative flex flex-col items-start justify-center group/items p-2'>
             <img src={img1} alt="model1 best seller" className='group-hover/items:hidden' />
             <img src={img2} alt="model1 best seller" className='hidden group-hover/items:block' />
-            <div className='flex flex-col items-start justify-center p-2 gap-4'>
+            <div className='flex flex-col items-start justify-center p-2 gap-4 bg-white w-[100%]' >
                 <div>
                     <h2 className='text-[1.2rem] font-bold '>Signode mens wear shirt</h2>
                 </div>

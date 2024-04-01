@@ -5,6 +5,7 @@ import Showcase from "./Components/Showcase";
 import OurHistory from "./Components/OurHistory";
 import BestSellers from "./Components/bestsellers/BestSellers";
 import Footer from "./Components/Footer";
+import Map from "./Components/Map"
 
 function Main() {
   return (
@@ -14,7 +15,8 @@ function Main() {
           <Showcase />
           <OurHistory />
           <BestSellers />
-          <Footer /> 
+          <Map/>
+          <Footer/> 
     </>
   )
 }
