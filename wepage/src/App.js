@@ -8,6 +8,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Aboutus from "./Components/navpages/Aboutus";
 import Main from "./Main";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/' element={<Main />} />
-
+          <Route path='/products' element={<Products />} />
         </Routes>
       </Router>
 
