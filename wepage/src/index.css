@@ -52,6 +52,25 @@ code {
   }
 
   .moveup{
-    animation:mup 1s forwards;
+    animation:mup 0.5s forwards;
   }
-  @keyframes mup
+  @keyframes mup{
+    from{
+      top:2rem;
+    }
+    to{
+      top:-5rem;
+    }
+  }
+
+  .movedown{
+    animation:mdn 0.5s forwards;
+  }
+  @keyframes mdn{
+    from{
+      top:-5rem;
+    }
+    to{
+      top:2rem;
+    }
+  }
