@@ -8,17 +8,23 @@ export default function Navbar() {
     let myref = useRef(null);
     let ham=useRef(null);
     let menu=false;
-    /*window.addEventListener("scroll", () => {
-        var st = window.scrollY;
-        if (st > curpage) {
-            myref.current.style.top = "0rem";
-            curpage = st;
+        window.onscroll=()=>{
+            scroll();
         }
-        else if (st < curpage) {
-            myref.current.style.top = "2rem";
-            curpage = 0;
-        }
-    });*/
+         function scroll()  {
+            var st = window.scrollY;
+            if (st > curpage) {
+                myref.current.classList.remove("movedown");
+                myref.current.classList.add("moveup");
+            }
+            else if (st < curpage) {
+                myref.current.classList.remove("moveup");
+               myref.current.classList.add("movedown");
+            }
+            curpage=st;
+        };
+    
+
     function hammenu(){
         if(menu)
         {

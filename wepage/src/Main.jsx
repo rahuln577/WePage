@@ -8,6 +8,15 @@ import Footer from "./Components/Footer";
 import Map from "./Components/Map"
 
 function Main() {
+  let st=0;
+  window.addEventListener("scroll",()=>{
+    let cur=window.scrollY
+    if(cur>st){
+    }
+    else if(st>cur){
+    }
+    st=cur;
+  })
   return (
       <>
           <Navbar />

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
 export default function Showcase() {
-    return <div className="bg-gray-50 mt-8">
+    return <div className="bg-white mb-[3rem] mt-[1.5rem]">
 
         <div className="w-full ">
-            <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem]">OUR SERVICES</h1>
+            <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem] tracking-tight">OUR SERVICES</h1>
         </div>
         <div className="lg:block hidden">
-            <div className="w-[93%] h-[40rem] flex flex-row  mx-[6.8%] my-[2%] ">
+            <div className="w-[93%] h-[40rem] flex flex-row  mx-[6.8%] my-[1%] ">
                 <div className="lg:flex flex-row w-[100%] h-[39rem] overflow-hidden hidden">
 
                     <div className="w-[32%] h-[40rem] m-[1%]">
