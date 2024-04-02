@@ -11,10 +11,11 @@ function BestSellers() {
   function sc()
   {
     let cur=div.current.scrollLeft
-    let total=div.current.scrollWidth-div.current.clientWidth
+    let total=div.current.scrollWidth - div.current.clientWidth
     let val=((cur/total)*100)
     scroll.current.style.width=val.toString()+'%'
   }
+
   return (
     <div className="my-[4rem] w-full h-full bg-gray-50">   
     <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem] tracking-tight">BEST SELLERS</h1>
@@ -34,7 +35,7 @@ function BestSellers() {
       </div>
   
       <div className="w-[90%] h-[0.15rem] bg-gray-300 mx-auto">
-      <div className="w-[0%] bg-black h-[0.15rem]" ref={scroll}></div>
+      <div className="w-[100%] bg-black h-[0.15rem]" ref={scroll}></div>
       </div>
 
     </div>
