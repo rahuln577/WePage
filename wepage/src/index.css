@@ -50,3 +50,8 @@ code {
           scrollbar-width: none;  /* Firefox */
     }
   }
+
+  .moveup{
+    animation:mup 1s forwards;
+  }
+  @keyframes mup

@@ -17,7 +17,7 @@ function BestSellers() {
   }
   return (
     <div className="my-[4rem] w-full h-full bg-gray-50">   
-    <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem]">BEST SELLERS</h1>
+    <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem] tracking-tight">BEST SELLERS</h1>
       <div className="w-full">
       <div className="no-scrollbar overflow-x-scroll flex flex-row w-full  h-[41rem] " onScroll={sc} ref={div}>
   
@@ -34,7 +34,7 @@ function BestSellers() {
       </div>
   
       <div className="w-[90%] h-[0.15rem] bg-gray-300 mx-auto">
-      <div className="w-[100%] bg-black h-[0.15rem]" ref={scroll}></div>
+      <div className="w-[0%] bg-black h-[0.15rem]" ref={scroll}></div>
       </div>
 
     </div>
