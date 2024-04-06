@@ -7,12 +7,15 @@ export default function Navbar() {
     let curpage = 0;
     let myref = useRef(null);
     let ham=useRef(null);
-    let menu=false;
+    let menu = false;
+    
         window.onscroll=()=>{
             scroll();
-        }
+    }
+    
          function scroll()  {
-            var st = window.scrollY;
+             var st = window.scrollY;
+             console.log(st);
             if (st > curpage) {
                 myref.current.classList.remove("movedown");
                 myref.current.classList.add("moveup");
@@ -38,11 +41,11 @@ export default function Navbar() {
             ham.current.classList.add("anim");
         }
     }
-    return <nav className="bg-white shadow-lg w-[96%]  h-[4.5rem] flex-row flex fixed top-[2rem] mx-[2%] z-[99]" ref={myref}>
+    return <nav className="bg-white shadow-lg w-[96%]  h-[4.5rem] flex-row flex fixed top-[2rem] mx-[2%] z-[99] movedown" ref={myref}>
         <div className=" ml-[1rem] flex-row hidden lg:flex h-[100%] w-[24rem] justify-between items-center z-[2]">
             <a href="#" className="text-[1rem] font-semibold ">Home</a>
             <a href="#" className="text-[1rem] font-semibold">About Us</a>
-            <a href="#" className="text-[1rem] font-semibold">Best Sellers</a>
+            <a href="#bestsellers" className="text-[1rem] font-semibold scroll-smooth">Best Sellers</a>
             <a href="#" className="text-[1rem] font-semibold">Location</a>
 
         </div>
