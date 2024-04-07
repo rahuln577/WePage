@@ -1,5 +1,6 @@
 import React from 'react'
 import historyvid from '../assets/main2.mp4'
+import { Link } from 'react-router-dom'
 
 function OurHistory() {
   return (
@@ -10,7 +11,7 @@ function OurHistory() {
                   Our History
               </h1>
               <h3 className='text-white leading-none text-[1.5rem] '>Original Tailoring with rich history and experience</h3>
-              <button className='w-[8rem] h-[2rem]  lg:w-[10rem] lg:h-[3rem] bg-white text-black font-semibold rounded-[0.2rem] text-[1rem]'>CHECK OUT </button>
+              <Link to='/aboutus'><button className='w-[8rem] h-[2rem]  lg:w-[10rem] lg:h-[3rem] bg-white text-black font-semibold rounded-[0.2rem] text-[1rem]'> CHECK OUT </button> </Link>
           </div>
       </div>
   )

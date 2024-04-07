@@ -7,7 +7,7 @@ export default function Back() {
             <Link to='/'>
                 <h1 className="font-bold text-xl flex">
                     <IoIosArrowBack style={{ width: "2rem", height: "2rem", margin: "0" }} />
-                    Home
+                    Back
                 </h1>
             </Link>
         </div>

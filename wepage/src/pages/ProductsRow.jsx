@@ -1,5 +1,4 @@
 import ProductsCard from "./ProductsCard";
-
 import { useRef } from "react";
 
 export default function ProductsRow({prod}) {
@@ -17,12 +16,12 @@ export default function ProductsRow({prod}) {
     }
 
     return (
-        <div className="flex flex-col">
+        <div className="relative flex flex-col">
             <div className="w-full my-4 flex flex-col  ">
                 <h1 className="font-bold text-[2rem] md:text-[3rem] ml-[2rem] md:ml-[3rem]  tracking-tight"> SHIRTS COLLECTION </h1>
             </div>
             <div className="w-full overflow-x-scroll no-scrollbar relative flex flex-row"  ref={prodcard} onScroll={slide} >
-                <ProductsCard prod = {prod} />
+                <ProductsCard prod={prod} />
                 <ProductsCard />
                 <ProductsCard />
                 <ProductsCard />

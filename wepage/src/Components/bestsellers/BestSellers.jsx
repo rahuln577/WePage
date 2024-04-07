@@ -17,7 +17,7 @@ function BestSellers() {
   }
 
   return (
-    <div className="my-[4rem] w-full h-full bg-gray-50">   
+    <div className="my-[4rem] w-full h-full bg-gray-50" id='bestsellers'>   
     <h1 className="font-bold text-[3rem] md:text-[5.5rem] ml-[2rem] md:ml-[3rem]">BEST SELLERS</h1>
       <div className="w-full">
       <div className="no-scrollbar overflow-x-scroll flex flex-row w-full  h-[41rem] " onScroll={sc} ref={div}>
