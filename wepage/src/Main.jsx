@@ -19,13 +19,11 @@ function Main() {
   })
   return (
       <>
-          <Navbar />
           <MainVideo />
           <Showcase />
           <OurHistory />
           <BestSellers />
           <Map/>
-          <Footer/> 
     </>
   )
 }
